@@ -1,0 +1,14 @@
+{
+	"name": "Svelte Password Generator",
+	"description": "this is svelte and vite to build password generator Chrome extension",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"icons": {
+		"32": "favicon.png"
+	},
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "favicon.png",
+		"default_title": "Svelte Password Generator"
+	}
+}
