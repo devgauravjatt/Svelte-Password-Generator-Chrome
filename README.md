@@ -66,14 +66,37 @@ Your password generator extension should now be active and ready to use in Chrom
 Here’s a quick overview of the project structure:
 
 ```
-/src
-  ├── /components   # Svelte components
-  ├── /stores       # Svelte stores
-  ├── cli.ts        # TypeScript CLI for the extension
-/public
-  └── /assets       # Images, icons, etc.
-/build
-  └── /extension   # Compiled extension files
+ .
+├──  build
+│   ├──  assets
+│   │   ├──  favicon.png
+│   │   ├──  main.css
+│   │   └──  main.js
+│   ├──  favicon.png
+│   ├──  index.html
+│   └──  manifest.json
+├──  bun.lockb
+├──  cli.ts
+├──  index.html
+├──  package.json
+├──  postcss.config.js
+├──  public
+│   └──  favicon.png
+├──  README.md
+├──  src
+│   ├──  app.css
+│   ├──  App.svelte
+│   ├──  assets
+│   │   └── 󰕙 svelte.svg
+│   ├──  lib
+│   │   └──  index.ts
+│   ├──  main.ts
+│   └──  vite-env.d.ts
+├──  svelte.config.js
+├──  tailwind.config.js
+├──  tsconfig.json
+├──  tsconfig.node.json
+└──  vite.config.ts
 ```
 
 ## Development
